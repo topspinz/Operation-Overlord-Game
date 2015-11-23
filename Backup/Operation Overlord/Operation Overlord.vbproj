@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{09FA3A3B-CE3E-4DAB-8952-1F8644B75E9C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Operation_Overlord.My.MyApplication</StartupObject>
+    <RootNamespace>Operation_Overlord</RootNamespace>
+    <AssemblyName>Operation Overlord</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Operation Overlord.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Operation Overlord.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Choose Army.Designer.vb">
+      <DependentUpon>Choose Army.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Choose Army.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2Celebrate.Designer.vb">
+      <DependentUpon>Form2Celebrate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2Celebrate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica1.Designer.vb">
+      <DependentUpon>FormAmerica1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica10.Designer.vb">
+      <DependentUpon>FormAmerica10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica11.Designer.vb">
+      <DependentUpon>FormAmerica11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica12.Designer.vb">
+      <DependentUpon>FormAmerica12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica13.Designer.vb">
+      <DependentUpon>FormAmerica13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica14.Designer.vb">
+      <DependentUpon>FormAmerica14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica15.Designer.vb">
+      <DependentUpon>FormAmerica15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica16.Designer.vb">
+      <DependentUpon>FormAmerica16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica17.Designer.vb">
+      <DependentUpon>FormAmerica17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica17.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica18.Designer.vb">
+      <DependentUpon>FormAmerica18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica18.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica19.Designer.vb">
+      <DependentUpon>FormAmerica19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica19.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica2.Designer.vb">
+      <DependentUpon>FormAmerica2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica3.Designer.vb">
+      <DependentUpon>FormAmerica3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica4.Designer.vb">
+      <DependentUpon>FormAmerica4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica5.Designer.vb">
+      <DependentUpon>FormAmerica5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica6.Designer.vb">
+      <DependentUpon>FormAmerica6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica7.Designer.vb">
+      <DependentUpon>FormAmerica7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica8.Designer.vb">
+      <DependentUpon>FormAmerica8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmerica9.Designer.vb">
+      <DependentUpon>FormAmerica9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAmerica9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBritain1.Designer.vb">
+      <DependentUpon>FormBritain1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormBritain1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBritain2.Designer.vb">
+      <DependentUpon>FormBritain2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormBritain2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCowardice.Designer.vb">
+      <DependentUpon>FormCowardice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCowardice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeath.Designer.vb">
+      <DependentUpon>FormDeath.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeath.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeath2.Designer.vb">
+      <DependentUpon>FormDeath2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeath2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeath3.Designer.vb">
+      <DependentUpon>FormDeath3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeath3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeath4.Designer.vb">
+      <DependentUpon>FormDeath4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeath4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeath5.Designer.vb">
+      <DependentUpon>FormDeath5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeath5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeath6.Designer.vb">
+      <DependentUpon>FormDeath6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeath6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Choose Army.resx">
+      <DependentUpon>Choose Army.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2Celebrate.resx">
+      <DependentUpon>Form2Celebrate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica1.resx">
+      <DependentUpon>FormAmerica1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica10.resx">
+      <DependentUpon>FormAmerica10.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica11.resx">
+      <DependentUpon>FormAmerica11.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica12.resx">
+      <DependentUpon>FormAmerica12.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica13.resx">
+      <DependentUpon>FormAmerica13.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica14.resx">
+      <DependentUpon>FormAmerica14.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica15.resx">
+      <DependentUpon>FormAmerica15.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica16.resx">
+      <DependentUpon>FormAmerica16.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica17.resx">
+      <DependentUpon>FormAmerica17.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica18.resx">
+      <DependentUpon>FormAmerica18.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica19.resx">
+      <DependentUpon>FormAmerica19.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica2.resx">
+      <DependentUpon>FormAmerica2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica3.resx">
+      <DependentUpon>FormAmerica3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica4.resx">
+      <DependentUpon>FormAmerica4.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica5.resx">
+      <DependentUpon>FormAmerica5.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica6.resx">
+      <DependentUpon>FormAmerica6.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica7.resx">
+      <DependentUpon>FormAmerica7.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica8.resx">
+      <DependentUpon>FormAmerica8.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAmerica9.resx">
+      <DependentUpon>FormAmerica9.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBritain1.resx">
+      <DependentUpon>FormBritain1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBritain2.resx">
+      <DependentUpon>FormBritain2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCowardice.resx">
+      <DependentUpon>FormCowardice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeath.resx">
+      <DependentUpon>FormDeath.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeath2.resx">
+      <DependentUpon>FormDeath2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeath3.resx">
+      <DependentUpon>FormDeath3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeath4.resx">
+      <DependentUpon>FormDeath4.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeath5.resx">
+      <DependentUpon>FormDeath5.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeath6.resx">
+      <DependentUpon>FormDeath6.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00008.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58673378wi4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00015.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artillery.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heavy Mounted Machine Gun.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Off the boat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic000001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Form 3 Music 3,2,1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Form 5 Off the boat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Form 4 Go,Go,Go.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taps.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Concept Art.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic000151.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00124.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00131.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00135.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nevada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00139.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38411863un3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00140.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casualties1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00149.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B-26 Marauder drops a string of 100-pound bombs over France.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nijmegenbridgenorthundexm7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relic00182.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semperfi_000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Firing the 88mm flak gun.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Martin Marauder in Action.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Animation1 %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Marauder Martin in Action.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Firing the 88mm flak gun 1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Martin Marauder in Action.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AC130 - 105mm sound effect!.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Naval Bombardment of Iwo Jima.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
